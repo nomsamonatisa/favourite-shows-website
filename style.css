@@ -1,0 +1,83 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Image Styling */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Gallery Container */
+.gallery img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  border: 2px solid #ccc;
+}
+
+/* Menu Bar */
+#menu {
+  background-color: #34495e;
+  padding: 12px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 15px;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#menu a:hover {
+  background-color: #2c3e50;
+  color: #1abc9c;
+  border-radius: 5px;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ol {
+  list-style-type: upper-roman;
+  padding-left: 20px;
+}
+
+/* List with image bullets */
+ul.image-bullets {
+  list-style-image: url('images/pointer-icon.png');
+}
+
+/* Footer (Optional) */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 40px;
+}
